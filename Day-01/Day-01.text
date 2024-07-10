@@ -1,0 +1,82 @@
+Day-01[10-07-2024]:
+===================
+	Good Evening All..
+
+Mulesoft Tools:
+===============
+	- Anypoint Studio
+	- PostMan
+	- DBeaver,Xampp,Toad
+	- Anypoint Platform
+
+RAML:
+=====
+	- R => Restful
+	- A => API
+	- M => Modelling
+	- L => Language
+
+Anypoint Platform:
+==================
+	- Design Center
+		- RAML Specification
+			- Fragments
+			- Traits
+			- Examples
+			- Data Types
+			- Libraries
+	- Exchange
+		- Created raml file is to be stored in exchange through pulishing from design center
+		- Different API's, Connector etc.,
+	- Runtime Manager
+	- API Manager
+
+Postman:
+========
+	- It is used for request and response
+	- Headers,coorelationid,authentication,queryparameters and URI Parameters
+
+Anypoint Studio:
+================
+	- To process the request and then it response the data in the format of JSON,text,String or etc.,
+
+Anypoint Studio Overview:
+=========================
+	- Package Explorer
+	- Testing [MUnit]
+	- Workspace => [Message Flow,Global Configuration,XML]
+	- Console [log] => Problems,errors,warning,server indication
+	- Mule Palette
+
+Customer CRUD-Operations => Requirement:
+========================================
+			Operation => Methods
+	=> C -> Create => POST
+	=> R -> Read/Retreive/Get/Accessing => GET
+	=> U -> Update => PUT/PATCH
+	=> D -> Delete => Delete
+
+POST -> Inserting a data => createcustomer
+GET -> Retrieve a data => getcustomerbyid
+PUT/PATCH -> Update a data => updatecustomerbyid
+DELETE -> Delete a data => deletecustomerbyid
+
+Resources/Endpoints:
+====================
+	- createcustomer
+		=> POST 
+	- getcustomerbyid
+		=> GET
+	- updatecustomerbyid
+		=> PUT/PATCH
+	- deletecustomerbyid
+		=> DELETE
+
+DESIGN Center:
+==============
+	-> RAML Creation
+
+
+
+
+
