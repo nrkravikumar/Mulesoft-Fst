@@ -5,6 +5,6 @@ Mulesoft for Beginners
   - Mulesoft Tools
   - RAML
   - Postman
-  - Anypoint Platform Serrvices
+  - Anypoint Platform Services
   - Anypoint Studio Overview
 
