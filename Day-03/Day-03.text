@@ -1,0 +1,38 @@
+Day-03[12-07-2024]:
+===================
+	Good Evening All...
+
+POST:
+=====
+	MYSQL Queries:
+	--------------
+	Syntax:
+	-------
+		- insert into tablename(field1,fieldname2,) values('','',)
+
+	Modes:
+	======
+		- Expression Mode => Complete Scripts
+		- Literal Mode => String
+	Input Parameters:
+	=================
+		- Dynamic Values [Postman]
+		- JSON Data
+		- :keyname => value => Database field
+
+GET:
+====
+	Syntax:
+	-------
+		- select * from tablename where filedname = value
+	Query Parameters => csid
+
+
+PUT:
+====
+	Syntax:
+	-------
+		- update tablename set fieldname = value where fieldname = value
+		- It tries to update the specified field value
+		- If need to update more fields then we need to pass the field and value pairs
+	Query Parameters => csid
