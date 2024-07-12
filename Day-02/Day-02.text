@@ -1,0 +1,79 @@
+Day-02[11-07-2024]:
+===================
+	Good Morning All..
+
+Video Lectures:
+===============
+	Day-01 video:
+	=============
+		- Introduction to Anypoint Platform,Mule ESB etc.,
+		- RAML
+			- Create => POST
+			- Reading => GET
+			- Update => PUT
+			- Delete => Delete
+		- Exchange
+		- Downloading of RAML file to anypoint studio
+
+	Day-02:
+	=======
+		- AWS Database,Table and Permissions
+		- Database,Table and authentication details
+
+Project Creation in Anypoint studio:
+====================================
+	- New Project
+	- User defined Project Name
+		Ex:	demoproject
+	- Scaffold should be selected
+	- Select import from Exchange
+	- Add Account
+		- your credentials [anypoint platform details]
+	- Search your project name [desing center project name]
+	- Select your projecct and add it download the project
+	- Click finish
+	- It creates the project in local system with userdefined project name but the xml file name will be same as design center api name 	
+
+Database:
+=========
+	- To store a data or to retrieve a data [Permanent]
+	- Mysql,Postgres,NoSQL and Mongodb
+	- Tool => Toad,Dbeaver [AWS,Azure] 
+			=> Endpoint -> domain name
+			=> User -> create username
+			=> Password -> create password
+			=> Port -> Default ports
+			=> Database -> Created at start
+	- XAMPP
+		=> Mysql -> local Machine
+		=> server
+	- Table Creation
+		=> Syntax:
+			= Create table tale_name(
+				Field_name datatype(parameters),
+				..
+				);
+		=> Fields
+			- id
+			- name
+			- email
+			- address
+			- mobile
+	- Global elements
+		- Database
+		- All details related to database
+
+	=> Database Configuration[AWS]:
+	===============================
+		- Endpoint[Host] => AWS endpoint link
+		- Port => 3306
+		- User => username that is created for mysql in aws
+		- Password => password that is created for mysql in aws
+		- Database => Database name that is created in aws
+
+		** Note: To test the configuration whether it is correct or not we need to click on the test connection. If it is correct it will displays as "Test Connection is Successfull".
+
+	
+
+
+
