@@ -30,8 +30,8 @@ Project Creation in Anypoint studio:
 	- Add Account
 		- your credentials [anypoint platform details]
 	- Search your project name [desing center project name]
-	- Select your projecct and add it download the project
-	- Click finish
+	- Select your project and then add it to download the project
+	- Click on finish
 	- It creates the project in local system with userdefined project name but the xml file name will be same as design center api name 	
 
 Database:
