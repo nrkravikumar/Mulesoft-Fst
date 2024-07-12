@@ -62,8 +62,10 @@ Database:
 	- Global elements
 		- Database
 		- All details related to database
+		- Select Mysql Connection
+		- If the driver is download it shows tick mark if not then we need to download to local system click on the "add dependency"
 
-	=> Database Configuration[AWS]:
+	** Database Configuration[AWS]:
 	===============================
 		- Endpoint[Host] => AWS endpoint link
 		- Port => 3306
@@ -72,8 +74,3 @@ Database:
 		- Database => Database name that is created in aws
 
 		** Note: To test the configuration whether it is correct or not we need to click on the test connection. If it is correct it will displays as "Test Connection is Successfull".
-
-	
-
-
-
