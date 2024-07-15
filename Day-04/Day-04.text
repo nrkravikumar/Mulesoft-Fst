@@ -1,0 +1,20 @@
+Day-04[15-07-2024]:
+===================
+	Good Evening All..
+
+Delete:
+=======
+	Syntax:
+	-------
+		- delete from tablename where fieldname = value
+		- It deletes a record from the table
+
+Choice:
+=======
+	- It checks the conditions and execute if the value is true
+	- It steps to next route
+	- Each condition will be considered as a route
+
+For each:
+=========
+	- It iterates the sequence of data in an array
