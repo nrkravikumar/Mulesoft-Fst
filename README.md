@@ -19,3 +19,8 @@ Mulesoft for Beginners
   - Reading a record with static and dynamic way
   - Updating a record with single and multiple field values
   - Recorded Video Link [Evening](https://transcripts.gotomeeting.com/#/s/3fad2a4c9f53249240be1fa13d5adec7f17c8b7a1092630c5ae6ae8292394ada)
+
+# Day-04[15-07-2024]:
+  - Delete a record from a table
+  - Choice and for each with sample example on each
+  - Recorded Video Link [Evening](https://transcripts.gotomeeting.com/#/s/3334c7c2abd05b3e134d219f10421dc0df3a971476b9801c3ed9e83577ae3158)
