@@ -24,3 +24,8 @@ Mulesoft for Beginners
   - Delete a record from a table
   - Choice and for each with sample example on each
   - Recorded Video Link [Evening](https://transcripts.gotomeeting.com/#/s/3334c7c2abd05b3e134d219f10421dc0df3a971476b9801c3ed9e83577ae3158)
+
+# Day-05[16-07-2024]:
+  - Foreach and Logger with sample example on each
+  - Encryption and Decryption for HTTP and Database values
+  - Recorded Video Link [Afternoon](https://transcripts.gotomeeting.com/#/s/36e06eb2f9f0c5d4aae125a1492e6dd6bb6e01854d6ed04b4ba9446e33643f99) [Evening](https://transcripts.gotomeeting.com/#/s/8218cb1bbe861f03d60b126915d29dd931158ad4d567d74d7ffef0cc4c47d167)
