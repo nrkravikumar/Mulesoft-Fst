@@ -1,0 +1,118 @@
+Day-05[16-07-2024]:
+===================
+	Good Afternoon All...
+
+Foreach:
+========
+	- It iterates the data 
+	- Input => Payload
+	- Output => Payload
+	- Input and Output are same it doesnt changes the value
+	- The counter value outside of foreach will be null
+
+Logger:
+=======
+	- It prints or displays the value in a server
+	- variable,array,object or string
+	
+Encryption and Decryption:
+==========================
+
+HTTP Configuration:
+===================
+	- Try to create a configuration file in src/main/resources folder with "qa.properties"
+	- In qa properties file we need to configure the http such as 
+		=> http.host
+		=> http.port
+	- So the configuration details will be as follows
+		=> http.host = 127.0.0.1
+		=> http.port = 8081
+	- We need to configure the global elements for http in that instead of using localhost and 8081 we need to use as 
+		=> ${http.host} and ${http.port}
+		So here we need to access the qa.properties values with the key names
+	- To access the qa.properties file we need to configure the properties in the global elements by using the "configuration properties" then we need to set the qa.properties to access the keys from the file.
+	- If we need to check the connection then we nned to perform the "Test connection" in http if the values are correct then it will displays the connect is successfull.
+
+	**Note: Similarlly we need to secure those connection values then we need to set those key and values in the "qa.properties" file.
+		Ex:
+			qa.properties:
+			--------------
+			http.host = localhost
+			http.port = 8081
+
+			db.host = localhost[based on the connection we need to set this]
+			db.port = 3306
+			db.user = admin/root/[based on connection we need to set this]
+			db.password = ''/[based on connection we need to set this]
+			db.database = customer_db
+
+	$ => MEL => Mule Expression Language and Dataweave
+	p() => Dataweave
+
+Secure Configuration Properties:
+================================
+	- Try to create a file with "qa-secure.properties" then try to use the required field to secure the database or http values
+	- We need to set the secure properties from the exchange because it doesnt exists in Mule Palette
+		=> Secure Properties
+		- Try to select "Mule Secure Properties" to local system and click on finish to download into local system
+		- If it is downloaded then it will displays in the Mule Palette and in Package Explorer
+	- After downloading secure properties then try to add it from "Connector Configuration" >> Secure Properties Config in global environments
+	- Then we need set these values to secure properties config
+		=> File -> Here we need to set the qa-secure.properties that is existing in src/main/resources folder
+		=> Key -> User defined password value it can be used further for encryption process
+		=> Algorithm ** Here we are selecting the algorithm as "Blowfish" for encryption
+	- After setting all these then click on "Ok"
+	
+	Secure Properties Installation:
+	-------------------------------
+		-> In anypoint studio try to tap on the "Help"
+		-> In Work with try to set the name as "Anypoint Enterprise Security" click on add
+		-> It displays the name then mention it as "Anypoint Enterprise Security"
+		-> For location try to set this link such as
+			https://anypoint-enterprise-security-update-site.s3.amazonaws.com/1.8.4
+		-> Then it will displays as 
+			- Premium
+			Try to select this premium and click on ok
+		-> It will displays the license agreements try to accept and download it
+		-> It will displays the files to select then try to check the valid to download those files
+		-> Click on ok
+		-> finally it tries to displays as "Restart studio" click on ok
+	-> After restarting the studio try to check the "Mule Editor" is displaying in the file open with option
+	- Try to open the qa-secure.properties file with the installed "Mule Editor" then only we can try to encrypt/decrypt the file
+	- Then try to double tap on the key then it will try to displays the value and encrypt after that we need to select the algorithm as "blowfish" because previously we had configured the same in secure properties then try to enter the key and tap on "encrypt" 
+	- In database config we need to set the database and password in the given format then only the value can be accessed such as
+		=> ${secure::db.user}
+		=> ${secure::db.password}
+		**Note:
+			-> Here secure defines that the file is encrypted for accessing the values in it  
+
+	-> Try to click on database config then check the connection related to database if the algorithm and configuration are true then it will displays the connection is success 
+		Ex:
+			Before Excryption:
+			******************
+			qa-secure.properties
+			--------------------
+			db.user = root
+			db.password = 
+
+			After Encryption:
+			*****************
+			qa-secure.properties
+			--------------------
+			db.user = $tYw7*9
+			db.password = ![Ey#62m
+
+			Database Config
+			---------------
+			host => ${db.host}
+			port => ${db.port}
+			user => ${secure::db.user}
+			password => ${secure::db.password}
+			database => ${db.database}
+
+Secure Properties Reference
+--------------------------- 
+	https://help.salesforce.com/s/articleView?id=001123741&type=1
+	Example:
+	========
+		https://dzone.com/articles/how-to-configure-and-use-secure-properties-in-mule
