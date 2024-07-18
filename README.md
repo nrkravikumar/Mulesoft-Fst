@@ -29,3 +29,7 @@ Mulesoft for Beginners
   - Foreach and Logger with sample example on each
   - Encryption and Decryption for HTTP and Database values
   - Recorded Video Link [Afternoon](https://transcripts.gotomeeting.com/#/s/36e06eb2f9f0c5d4aae125a1492e6dd6bb6e01854d6ed04b4ba9446e33643f99) [Evening](https://transcripts.gotomeeting.com/#/s/8218cb1bbe861f03d60b126915d29dd931158ad4d567d74d7ffef0cc4c47d167)
+
+# Day-06[17-07-2024]:
+  - Scatter Gather with sample example on it
+  - Recorded Video Link [Evening](https://transcripts.gotomeeting.com/#/s/62bfd8541bf5f67ae7f0acf7f164c2cad65ec6d104e4a423162de170948b28a5)
