@@ -1,0 +1,10 @@
+Day-06[17-07-2024]:
+===================
+	Good Evening All...
+
+Scatter Gather:
+===============
+	- Single Thread and copy to different routes and then the final output will be single output
+	- We can't define the exact data to be an output it may be changes in the routes based on the requirement
+	- If we fix as max concurrency then it will try to executes in a sequence route
+	
