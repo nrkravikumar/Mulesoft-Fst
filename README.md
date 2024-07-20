@@ -33,3 +33,7 @@ Mulesoft for Beginners
 # Day-06[17-07-2024]:
   - Scatter Gather with sample example on it
   - Recorded Video Link [Evening](https://transcripts.gotomeeting.com/#/s/62bfd8541bf5f67ae7f0acf7f164c2cad65ec6d104e4a423162de170948b28a5)
+
+# Day-07[18-07-2024]:
+  - Project Deployment to Cloudhub with configurations and accessing of an application
+  - Recorded Video Link [Evening](https://transcripts.gotomeeting.com/#/s/b6b1b208d48719f92d52ec21bb7bc667f58b76e258fe31329865081c244039bf) [Nxt Mrng](https://transcripts.gotomeeting.com/#/s/3c370005ba83ab709479b01283428d0faf815e3230b6a7b6e80a84e1c0113b0e)
