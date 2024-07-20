@@ -1,0 +1,20 @@
+Day-07[18-07-2024]:
+===================
+	Good Evening All...
+
+
+Deployment to Cloudhub:
+=======================
+	- Right Click on the project then select Anypoint Platform and then select "Deploy to Cloudhub"
+	- [Anypoint Platform]Crendentials are to be used while deploying the project
+	- Modifications in Deployment
+		=> Projectname
+		=> In Deployment try to select either Cloudhub 1.0, or Cloudhub 2.0
+	- Click on Deploy Application
+
+Using Deployed Applications:
+============================
+	- After the deployment try to copy the endpoint while clicking on the appname then in right side it displays the app link
+	- Then try to check the deployed application in postman then try to set the resource and access the values by using user defined method
+	- If any issues like server error, internal server error etc., then try to check it in anypoint platform => runtime => logs to an application
+	
