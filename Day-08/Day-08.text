@@ -1,0 +1,10 @@
+Day-08[20-07-2024]:
+===================
+	Good Evening All...
+
+Anypoint Platform => runtime manager
+
+Auto Discovery:
+===============
+	- Interaction between API Manager and Runtime manager
+	- To secure the application we need to use the Auto Discovery to provide policies and to interact with the runtime manager apps 
