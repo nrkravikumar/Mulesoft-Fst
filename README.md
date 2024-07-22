@@ -37,3 +37,7 @@ Mulesoft for Beginners
 # Day-07[18-07-2024]:
   - Project Deployment to Cloudhub with configurations and accessing of an application
   - Recorded Video Link [Evening](https://transcripts.gotomeeting.com/#/s/b6b1b208d48719f92d52ec21bb7bc667f58b76e258fe31329865081c244039bf) [Nxt Mrng](https://transcripts.gotomeeting.com/#/s/3c370005ba83ab709479b01283428d0faf815e3230b6a7b6e80a84e1c0113b0e)
+
+# Day-08[20-07-2024]:
+  - Configuration for Auto Discovery, Interaction between Auto Discovery and Run time
+  - Recorded Video Link [Evening](https://transcripts.gotomeeting.com/#/s/66e26f954c2b019b72f09960a54a36b3810e946904dc474fb7339b7028d60ff9)
