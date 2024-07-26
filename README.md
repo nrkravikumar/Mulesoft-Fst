@@ -40,3 +40,6 @@ Mulesoft for Beginners
 # Day-09[25-07-2024]:
   - Overview of Deployment to cloudhub,API Manager and AutoDiscovery
   - Policies like Basic Authentication and Clientid Enforcement with sample example on it
+
+# Day-10[26-07-2024]:
+  - Rate Limiting Policy with sample example on it
