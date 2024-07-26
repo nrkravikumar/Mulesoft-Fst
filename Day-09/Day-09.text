@@ -1,0 +1,100 @@
+Day-09[25-07-2024]:
+===================
+	Good Evening All...
+
+
+Reference:
+	https://developer.mulesoft.com/tutorials-and-howtos/getting-started/how-to-setup-api-autodiscovery-anypoint-studio/#:~:text=Configure%20Anypoint%20Studio%20with%20API%20Autodiscovery&text=Click%20the%20Create%20button%2C%20then,more%20by%20visiting%20the%20documentation.
+
+Anypoint Studio => Runtime Manager:
+-----------------------------------
+	=> Right click on the project and select anypoint platform
+	=> In anypoint select deploy to cloudhub
+	=> It takes sometime and displays the another dialogue window in that we need to mention these fields
+		-> Mention user defined Project name
+		-> Select the deployment mode to
+			=> Cloudhub
+		-> Try to click on deployment
+	=> It takes sometime to deploy and finally it shows the deployment is successfull with the below options
+		-> Open Window
+		-> Close Window
+	=> We can check the application is deployed to cloudhub in runtime manager
+	=> While clicking on the application it will displays the app link so we can use these link as a reference to access the data from cloudhub links
+		Ex:
+		---
+		In postman
+
+		GET	-> http://cloudhub.xxxx/api/getcustomer?csid=2
+			=> It will access data from this url instead of localhost host
+
+Auto Discovery:
+===============
+	=> After deployment in runtime manager then we need to secure our app so we need to use auto discovery 
+	=> In API Manager we need to click on Add API
+		-> Add API
+			-> Add new API
+			-> Mule Gateway
+			-> Click on Next
+			-> Search on Exchange
+			-> Select your API
+			-> Click on Next
+	=> It will creates an Application with Unsupported status try to click on the application and then it will displays the app in another window
+	=> In that we need to access the API ID to set it in anypoint studio
+	=> Copy that API ID from that Application
+
+Anypoint Studio => Auto Discovery:
+==================================
+	=> Try to open the application
+	=> Select Global Elements and then try to create a configuration
+		-> Search as "Auto Discovery"
+		-> In that try to set the id in key
+		-> Try to select the main flow to set auto discovery
+	=> Try to right click on the project then try to select Anypoint Platform
+		-> Select Configure Credentials
+		-> It displays the window there we need to select "API Manager"
+		-> So in that try to set the below values
+			=> Clientid
+			=> ClientSecret
+		-> These values can be copied from the API Manager with an "Environment" 
+			=> Clientid
+			=> Clientsecret
+		-> Try to copy the values exisiting in the Environment not in "Business Group"
+		-> If the values are set then try to click on "validate" if it is true then it displays "tick" mark then click on "Apply and Close"
+	=> The Client id and Client secret is set for the application then we need to redeploy the application to "Cloudhub"
+	=> After completion of redployment then in "API Manager" the application status will be "Active"
+
+Policies:
+=========
+	- Basic Authentication
+	- ClientId Enforcement
+	- Rate Limiting
+	- Rate Limiting-SLA Based
+
+	Basic Authentication:
+	=====================
+		- After deploying the application in Runtime Manager try to secure the app for single user or multiple users 
+		- In API Manager try to select your app then it displays another window with options in left side
+		- Select Policies tab then try to tap on "Add Policy"
+		- Search Policy name as "Basic Authentication" it displays with 2 policies select "Basic Authentication-Simple"
+		- Then try to provide the username and password to secure the app
+		- Click on Apply
+		- Try to check it in Runtime Manager logs whether the policy is applied for it or not
+		- Try to use this username and password in Postman[Authentication Section] to access the data from database
+
+	ClientId Enforcement:
+	=====================
+		- This policy is to be set it from exchange 
+		- Select your project and try to tap on "Request Access"
+		- It displays a window with some options such as
+			=> API Instance
+			=> Application
+			=> SLA Tier
+		- In API Instance select sandbox instances
+		- In Application try to create an application and create an application then tap on create
+		- It displays Clientid and Clientsecret try to copy these values to postman headers section with these key and values
+		- Finally Click on Request Access
+		- Try to check it in Runtime Manager logs whether the policy is applied for it or not
+		- Check the request in postman with this policy then it responds with the data
+
+
+
