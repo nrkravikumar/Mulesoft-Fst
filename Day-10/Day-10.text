@@ -1,0 +1,16 @@
+Day-10[26-07-2024]:
+===================
+	Good Evening All...
+
+Rate Limiting Policy:
+=====================
+	- To restrict the number of request per minute
+	- In Anypoint Platform navigate to API Manager then try to select the api
+	- Tap on the Policies then try to add policy as "Rate Limiting Policy"
+	- It will displays some options to set it for the policy
+		=> Number of Request
+		=> Time Period
+		=> Time Unit
+	- Set those options and click on "Apply" it will applies to the application
+	- Check the Status in Runtime Manager whether the policy is set or not
+	- Access the data from Postman after number of request set in api manager will displays that "Quota is exceeded" for a particular time
