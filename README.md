@@ -46,3 +46,6 @@ Mulesoft for Beginners
 
 # Day-11[29-07-2024]:
   - Error Handlers Explanation,Http Status Codes, Overview and sample example on error propogate
+
+# Day-12[30-07-2024]:
+  - Different Error Level Ways Overview, Flow Level and Global Level error handlers with sample example on it
