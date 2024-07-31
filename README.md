@@ -43,3 +43,6 @@ Mulesoft for Beginners
 
 # Day-10[26-07-2024]:
   - Rate Limiting Policy with sample example on it
+
+# Day-11[29-07-2024]:
+  - Error Handlers Explanation,Http Status Codes, Overview and sample example on error propogate
