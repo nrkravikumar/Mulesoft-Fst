@@ -1,0 +1,38 @@
+Day-11[29-07-2024]:
+===================
+	Good Evening All...
+
+Error Handlers:
+===============
+	- On Error Propogate
+	- On Error Continue
+	- Raise error
+	- Error Handler
+
+Http Status Codes:
+==================
+	- 1xxx
+	- 2xxx
+	- 3xxx
+	- 4xxx
+	- 5xxx
+
+On Error Propogate:
+===================
+	- To defined own httpstatus code,httpresponse data and payload we can perform those action
+	- Attach on error propogate component to the flow we need then try to select the error we prefer it is to display like
+		=> connectivity
+		=> sql syntax
+		=> Expression
+	- Then try to create a variables for
+		=> httpresponse
+		=> httpstatus
+		=> payload
+	- To fix this variables try to click on listener and then select responses tab in error section we can observe 
+		=> body
+		=> status
+		=> response
+	- There in body no need to update we need to mention this details to access the status and response from the error handler
+		=> vars.httpstatus
+		=> vars.httpresponse
+	- Debug the project at finally in postman we will get the error status,response and payload that is mentioned by the user
