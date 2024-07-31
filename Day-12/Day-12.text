@@ -1,0 +1,42 @@
+Day-12[30-07-2024]:
+===================
+	Good Evening All...
+
+Error Ways:
+===========
+	- Flow
+	- Component
+	- Global
+
+Flow Level:
+===========
+	- The error is handled from entire a flow
+
+Component Level:
+================
+	- The error is handled from entire a component
+
+Global Level:
+=============
+	- The errors are to be handled from entire a project 
+
+Global Level Configurations:
+============================
+	- Try to create a configuration file and mention user defined name for it
+	- Select error handler component and drag it to workspace then configure the "on error propogate" handler then add 2 variables component and transform message
+	- In first variable try to set the variablename and value such as 
+		=> variablename -> httpstatus
+		=> value -> 503
+	- For second varaible try to set the variablename and value such as 
+		=> variablename -> httpresponse
+		=> value -> "DB Connectivity"
+	- For transform message try to set it to some value such as
+		=> value -> "Database not connected"
+	- To access global error to a project we need to set a configuration in global elements
+		=> Configuration
+		=> Set default error handler to created error handler that is created in configuration file
+	- Try to run the projct and observe the error handlers based on the error in a configurations like
+		=> Database
+		=> Bad SQL Syntax
+		=> Expression
+	
