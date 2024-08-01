@@ -1,0 +1,50 @@
+Day-13[01-08-2024]:
+===================
+	Good Afternoon All...
+
+Component Level:
+================
+	- Within a component for that we need to use try scope to handle the error in a component
+
+On Error Propogate => It redirects 500 response code
+				   => It can be used to display the exact error to a user
+
+On Error Continue => It redirects 200 response code
+				  => It can be used to skip the error but the response code will be 200
+				  => It is used when a server is down or the data is incorrect so we need to store data for further actions
+				  => To store those data we use file concept and to process the data to rectify those issues later
+
+Error Handlers:
+===============
+	=> Scenario - 1
+		=> On Error Propogate [Component => Try]
+		=> On Error Continue [Flow]
+		=> If try scope gets error then it navigates to the flow error level
+		=> It displays 
+			-> Status Code = 200
+			-> Continue content [Flow Level]
+
+	=> Scenario - 2
+		=> On Error Continue [Component => Try]
+		=> On Error Continue [Flow]
+		=> It displays 
+			-> Status Code = 200
+			-> Continue content [Component]
+
+	=> Scenario - 3
+		=> On Error Propogate [Component => Try]
+		=> On Error Propogate [Flow]
+		=> It displays 
+			-> Status Code = 500
+			-> Propogate content [Flow]
+
+	=> Scenario - 4 [flow reference and private flow]
+		=> Flow Reference [Propogate]
+		=> Private Flow [Propogate]
+		=> It displays 
+			-> Status Code = 500
+			-> Propogate content [Main Flow]
+	
+
+
+
