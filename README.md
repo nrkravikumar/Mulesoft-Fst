@@ -49,3 +49,7 @@ Mulesoft for Beginners
 
 # Day-12[30-07-2024]:
   - Different Error Level Ways Overview, Flow Level and Global Level error handlers with sample example on it
+
+# Day-13[01-08-2024]:
+  - Component Level Error Handler with sample example on it
+  - Error Handlers with different scenarios example on each
