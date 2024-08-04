@@ -56,4 +56,4 @@ Mulesoft for Beginners
 
 # Day-14[04-08-2024]:
   - Different Scenario with error handlers in main flow and private flow
-  - First Successfull with sample eample on it 
+  - First Successfull with sample example on it 
