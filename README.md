@@ -53,3 +53,7 @@ Mulesoft for Beginners
 # Day-13[01-08-2024]:
   - Component Level Error Handler with sample example on it
   - Error Handlers with different scenarios example on each
+
+# Day-14[04-08-2024]:
+  - Different Scenario with error handlers in main flow and private flow
+  - First Successfull with sample eample on it 
