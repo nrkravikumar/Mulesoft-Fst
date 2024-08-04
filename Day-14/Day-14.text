@@ -1,0 +1,22 @@
+Day-14[02-08-2024]:
+===================
+	Good Evening All...
+
+=> Scenario - 5 [flow reference and private flow]
+		=> Flow Reference [Continue]
+		=> Private Flow [Propogate]
+		=> It displays 
+			-> Status Code = 500
+			-> Private content [Private Flow]
+
+=> Scenario - 6 [flow reference and private flow]
+		=> Flow Reference [Continue]
+		=> Private Flow [Continue]
+		=> It displays 
+			-> Status Code = 200
+			-> Continue content [Main Flow End]
+
+First Successfull:
+==================
+	- To use the alternate solution to an error
+	- If all the routes are occurring the errors then the last route error will be displayed to a user	 
