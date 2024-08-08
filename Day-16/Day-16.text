@@ -2,8 +2,23 @@ Day-16[07-08-2024]:
 ===================
 	Good Evening All...
 
-Object Store:
-=============
+Store:
+======
 	- Temporary data to store untill for a certain limit
 	- It stores the data in key and value pairs format
-	
+
+Retrieve:
+=========
+	- It will tries single data to access from the object store
+
+Retrieve All:
+=============
+	- It will tries to access all records from the object store
+
+Retrieve All Keys:
+==================
+	- It will displays all keys exists in a object store
+
+Remove:
+=======
+	- It will removes the single record data in object store 
