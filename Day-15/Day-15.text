@@ -1,0 +1,13 @@
+Day-15[05-08-2024]:
+===================
+	Good Evening All...
+
+Untill Successful:
+==================
+	- It will tries to hold the data access from the database untill the database is connected to it
+	- It has max entries and time limit to access the data from the each entry
+	- Suppose the database is started in middle of the time limit it will tries to get output from the database instead of holding the entry
+	- If the database is not started in between the time limit then it will displays the error as "Retry Exhausted".
+
+
+	
