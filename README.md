@@ -60,3 +60,6 @@ Mulesoft for Beginners
 
 # Day-15[05-08-2024]:
   - Untill successful with sample example on it
+
+# Day-16[07-08-2024]:
+  - Object store with sample example on it
