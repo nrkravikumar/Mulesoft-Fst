@@ -1,7 +1,7 @@
 # Mulesoft-Fst
 Mulesoft for Beginners
 
-### [Youtube Channel Link](https://www.youtube.com/playlist?list=PLFKvs9F_AI8bttcdgk8LO_iD21X486C-a)
+### [Youtube Channel Link](https://www.youtube.com/playlist?list=PLFKvs9F_AI8bttcdgk8LO_iD21X486C-a0)
 
 # Day-01[10-07-2021]:
   - Mulesoft Tools
